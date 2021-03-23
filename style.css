@@ -24,13 +24,22 @@ body {
     main {
         padding-top: 100px;
     }
+    .intro {
+        padding-top: 20px;
+        margin: 0 auto;
+    }
+    .intro>p {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 50px;
+    }
     .one {
         padding: 10px 20%;
-        background-color: rgba(255, 255, 255, 0.4);
+        background-color: rgba(255, 255, 255, 0.7);
         text-align: justify;
         font-weight: 300;
         color: rgb(43, 42, 42);
     }
-    .one>h3 {
+    .one>h3, .two>h3 {
         text-transform: uppercase;
     }
