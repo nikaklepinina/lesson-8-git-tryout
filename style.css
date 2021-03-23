@@ -4,5 +4,22 @@ body {
     margin: 0;
     padding: 0;
     font-family: roboto, sans-serif;
-    background-image: url(https://images.pexels.com/photos/4827/nature-forest-trees-fog.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-}
+    background-image: url(img/forest.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    header {
+        display: block;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        padding: 10px 20px;
+        background-color: rgb(170, 168, 168);
+        color: white;
+        text-transform: uppercase;
+        text-shadow: 2px 2px 1px  teal;
+    }
+    main {
+        padding-top: 100px;
+    }
